@@ -1,17 +1,17 @@
 body
 {
-	background-color: #fff1e0;
+	background-color: #e5efff;
 	font-family: "Trebuchet MS";
 }
 div.primDiv
 {
-	background-color: #dbd2c7;
+	background-color: #c6d6ef;
 	width: 100%;
 }
 
 div.leftBar
 {
-	background-color: #dbd2c7;
+	background-color: #c6d6ef;
 	width: 50%;
 	text-align: left;
 	float: left;
@@ -19,7 +19,7 @@ div.leftBar
 
 div.rightBar
 {
-	background-color: #dbd2c7;
+	background-color: #c6d6ef;
 	width: 50%;
 	text-align: right;
 	float: right;
