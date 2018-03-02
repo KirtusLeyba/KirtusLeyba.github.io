@@ -1,17 +1,17 @@
 body
 {
-	background-color: #e5efff;
+	background-color: #ffffff;
 	font-family: "Trebuchet MS";
 }
 div.primDiv
 {
-	background-color: #c6d6ef;
+	background-color: #fcf6e0;
 	width: 100%;
 }
 
 div.leftBar
 {
-	background-color: #c6d6ef;
+	background-color: #fcf6e0;
 	width: 50%;
 	text-align: left;
 	float: left;
@@ -19,7 +19,7 @@ div.leftBar
 
 div.rightBar
 {
-	background-color: #c6d6ef;
+	background-color: #fcf6e0;
 	width: 50%;
 	text-align: right;
 	float: right;
@@ -44,11 +44,11 @@ button.linkbutton
     padding-top: 8px;
     padding-bottom: 8px; 
     color: #261d00;
-	background-color: #a8e0d3
+	background-color: #a09e97
 }
 button.linkbutton:hover
 {
-	background-color: #7ea89e
+	background-color: #cccccc
 }
 
 p.centeredElem
