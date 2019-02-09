@@ -11,7 +11,7 @@
 	</head>
 
 	<body>
-
+	<div class="container">
 		<form>
 			grid width:<br>
 			<input type="text" name="gridWidth" id = "gwidth" value = "50"><br>
@@ -48,19 +48,21 @@
 			</form>
 			<button onclick="setParams()"> Set Params </button>
 		</p>
-
-
-
-		<p>
-			<button onclick="startSim()"> Start Simulation </button>
-			<button onclick="pauseSim()"> Pause Simulation </button>
-			<button onclick="continueSim()"> Continue Simulation </button>
-		</p>
-
-		<div id="gridRegion">
 		</div>
 
-		<div>
+
+		<div class="container">
+			<p>
+				<button onclick="startSim()"> Start Simulation </button>
+				<button onclick="pauseSim()"> Pause Simulation </button>
+				<button onclick="continueSim()"> Continue Simulation </button>
+			</p>
+		</div>
+
+		<div id="gridRegion" class = "container">
+		</div>
+
+		<div class="container">
 			<p id="iterationcount">Iteration = 0</p>
 			<p id="currentDelay">delay = 0</p>
 			<p id="currentPop">Current Poputlation = 0</p>
