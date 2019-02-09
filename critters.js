@@ -401,8 +401,8 @@ var delay = 0;
 
 //population variables
 var mutationRate = 0.1
-var mutationsPerSpecies = 5;
-var mateChance = 0.1;
+var mutationsPerSpecies = 10;
+var mateChance = 0.7;
 var aging = 1;
 var attackDamage = 10;
 var attackHealth = 10;
