@@ -27,18 +27,18 @@
 			<input type="text" name="delay" id = "delay" value = "0"><br>
 		</form>
 		<p>
-			<button onclick="setDelay()"> Set Delay </button>
+			<button onclick="setDelay()" class="btn-default"> Set Delay </button>
 		</p>
 
 
 		<p>
 			<form>
 				Mutation Rate:
-				<input type="text" name="muteRate" id = "muteRate" value="0.4">
+				<input type="text" name="muteRate" id = "muteRate" value="0.1">
 				Mutations Per Species:
-				<input type="text" name="perSpecies" id = "perSpecies" value = "5">
+				<input type="text" name="perSpecies" id = "perSpecies" value = "10">
 				Mating Chance:
-				<input type="text" name="mateChance" id = "mateChance" value = "0.2"><br>
+				<input type="text" name="mateChance" id = "mateChance" value = "0.7"><br>
 				Aging Rate:
 				<input type="text" name="aging" id = "aging" value = "1">
 				Attack Damage:
@@ -46,16 +46,16 @@
 				Attack Health:
 				<input type="text" name="attackHealth" id = "attackHealth" value = "10">
 			</form>
-			<button onclick="setParams()"> Set Params </button>
+			<button onclick="setParams()" class="btn-default"> Set Params </button>
 		</p>
 		</div>
 
 
 		<div class="container">
 			<p>
-				<button onclick="startSim()"> Start Simulation </button>
-				<button onclick="pauseSim()"> Pause Simulation </button>
-				<button onclick="continueSim()"> Continue Simulation </button>
+				<button onclick="startSim()" class="btn-default"> Start Simulation </button>
+				<button onclick="pauseSim()" class="btn-default"> Pause Simulation </button>
+				<button onclick="continueSim()" class="btn-default"> Continue Simulation </button>
 			</p>
 		</div>
 
