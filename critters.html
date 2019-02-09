@@ -1,0 +1,68 @@
+<html>
+
+	<head>
+		<script src="https://d3js.org/d3.v5.min.js"></script>
+	</head>
+
+	<body>
+
+		<form>
+			grid width:<br>
+			<input type="text" name="gridWidth" id = "gwidth" value = "50"><br>
+			grid height:<br>
+			<input type="text" name="gridHeight" id = "gheight" value = "50"><br>
+		</form>
+		<button onclick="updateGrid()"> Update Grid </button>
+
+		<form>
+			Initial Population:<br>
+			<input type="text" name="initPop" id = "initPop" value = "100"><br>
+			Iteration Delay(ms):<br>
+			<input type="text" name="delay" id = "delay" value = "0"><br>
+		</form>
+		<p>
+			<button onclick="setDelay()"> Set Delay </button>
+		</p>
+
+
+		<p>
+			<form>
+				Mutation Rate:
+				<input type="text" name="muteRate" id = "muteRate" value="0.4">
+				Mutations Per Species:
+				<input type="text" name="perSpecies" id = "perSpecies" value = "5">
+				Mating Chance:
+				<input type="text" name="mateChance" id = "mateChance" value = "0.2"><br>
+				Aging Rate:
+				<input type="text" name="aging" id = "aging" value = "1">
+				Attack Damage:
+				<input type="text" name="attackDamage" id = "attackDamage" value = "10">
+				Attack Health:
+				<input type="text" name="attackHealth" id = "attackHealth" value = "10">
+			</form>
+			<button onclick="setParams()"> Set Params </button>
+		</p>
+
+
+
+		<p>
+			<button onclick="startSim()"> Start Simulation </button>
+			<button onclick="pauseSim()"> Pause Simulation </button>
+			<button onclick="continueSim()"> Continue Simulation </button>
+		</p>
+
+		<div id="gridRegion">
+		</div>
+
+		<div>
+			<p id="iterationcount">Iteration = 0</p>
+			<p id="currentDelay">delay = 0</p>
+			<p id="currentPop">Current Poputlation = 0</p>
+			<p id="currentMuteRate">Mutation Rate = 0</p>
+		</div>
+
+		<script src = "critters.js"></script>
+
+	</body>
+
+</html>
