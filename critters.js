@@ -83,7 +83,7 @@ function drawGrid(drawWidth, drawHeight, gw, gh, cwidth, cheight)
 							.attr("width", cwidth)
 							.attr("height", cheight)
 							.style("fill", "black")
-							.style("stroke", "white");
+							.style("stroke", "#d1d1d1");
 			d3cells[i.toString() + "," + j.toString()] = rect;
 		}
 	}
