@@ -1,6 +1,6 @@
 //default grid values
-var gridDrawWidth = 600; //in pixels
-var gridDrawHeight = 600;
+var gridDrawWidth = 640; //in pixels
+var gridDrawHeight = 360;
 var gridWidth = 50; //in num cells
 var gridHeight = 50;
 var cellWidth = gridDrawWidth/gridWidth; //in pixels
