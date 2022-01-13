@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Noisy Nets on My New Hugo Site</title>
+    <link>http://example.org/level_one/</link>
+    <description>Recent content in Noisy Nets on My New Hugo Site</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language><atom:link href="http://example.org/level_one/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Source Code</title>
+      <link>http://example.org/level_one/source_code/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://example.org/level_one/source_code/</guid>
+      <description>Code Repository The source code for this project includes various tools for observing public routing tables, counting network observations, estimating model parameters for network inference, and handling intermediate data. The entire open source code for the project is available at the github repository.</description>
+    </item>
+    
+  </channel>
+</rss>

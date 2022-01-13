@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>My New Hugo Site</title>
+    <link>http://example.org/</link>
+    <description>Recent content on My New Hugo Site</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language><atom:link href="http://example.org/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Path Vector Routing</title>
+      <link>http://example.org/path-based-observation/route_vector_protocols/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://example.org/path-based-observation/route_vector_protocols/</guid>
+      <description>Routing protocols, such as the Border Gateway Protocol (BGP), where paths between regions of IP space are advertised by routers to propogate reachability information. Public data for BGP is collected by route collectors, which gather BGP announcements from various vantage points (VPs). Datasets containing public routing information include paths through Autonomous Systems (ASes).</description>
+    </item>
+    
+    <item>
+      <title>Source Code</title>
+      <link>http://example.org/level_one/source_code/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://example.org/level_one/source_code/</guid>
+      <description>Code Repository The source code for this project includes various tools for observing public routing tables, counting network observations, estimating model parameters for network inference, and handling intermediate data. The entire open source code for the project is available at the github repository.</description>
+    </item>
+    
+  </channel>
+</rss>
