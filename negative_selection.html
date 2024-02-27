@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Download Negative Selection Samples</title>
+</head>
+<body>
+    <h2>Download CSV</h2>
+    <label for="numSamples">Number of Samples:</label>
+    <input type="number" id="numSamples" name="numSamples" min="1" value="1">
+    <button onclick="downloadCSV()">Download Samples</button>
+
+    <script>
+        function downloadCSV() {
+            // Get the number of lines from the input field
+            var numSamples = document.getElementById('numSamples').value;
+
+            // Construct the URL with the num_lines parameter
+            var url = '178.16.143.126/download_csv?num_samples=' + numSamples;
+
+            // Send a GET request to the server to download the CSV
+            var xhr = new XMLHttpRequest();
+            xhr.open('GET', url, true);
+            xhr.responseType = 'blob'; // Important to handle binary data
+            xhr.onload = function () {
+                if (xhr.status === 200) {
+                    // Create a link element to trigger the download
+                    var blob = new Blob([xhr.response], { type: 'text/csv' });
+                    var url = window.URL.createObjectURL(blob);
+                    var a = document.createElement('a');
+                    a.href = url;
+                    a.download = 'data.csv';
+                    document.body.appendChild(a);
+                    a.click();
+                    document.body.removeChild(a);
+                } else {
+                    console.error('Failed to download CSV. Status: ' + xhr.status);
+                }
+            };
+            xhr.send();
+        }
+    </script>
+</body>
+</html>
